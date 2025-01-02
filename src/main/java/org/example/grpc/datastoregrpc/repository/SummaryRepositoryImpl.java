@@ -14,7 +14,6 @@ import java.util.Set;
 @RequiredArgsConstructor
 @Slf4j
 public class SummaryRepositoryImpl implements SummaryRepository {
-//    private final
 
     @Override
     public Optional<Summary> findBySensorId(
@@ -38,4 +37,6 @@ public class SummaryRepositoryImpl implements SummaryRepository {
     {
         return Optional.empty();
     }
+
+    //todo: other methods will be implemented in the future.
 }
